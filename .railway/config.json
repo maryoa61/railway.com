@@ -1,0 +1,24 @@
+{
+  "projects": {
+    "/data/data/com.termux/files/home": {
+      "projectPath": "/data/data/com.termux/files/home",
+      "name": "humorous-perception",
+      "project": "70408f1d-2c47-48a7-b736-edf80896d1f9",
+      "environment": "61761dce-e91c-4280-8c67-a7c12a51584b",
+      "environmentName": "production",
+      "service": null
+    }
+  },
+  "user": {
+    "id": "ee3d3962-b36a-4c1d-886e-28ca40112d51",
+    "token": null,
+    "accessToken": "C4tn6ZT71HFN-MZ1XrvTZsjeOEIFLc_4kZMcUqa290h",
+    "refreshToken": "86ZIjUpNgNW3bRkPudMGE3FDzbTrBo2F_Pz7ZvIf7Sy",
+    "tokenExpiresAt": 1783484127
+  },
+  "editor": null,
+  "linkedFunctions": null,
+  "sandboxes": null,
+  "activeSandbox": null,
+  "sandboxTemplates": null
+}

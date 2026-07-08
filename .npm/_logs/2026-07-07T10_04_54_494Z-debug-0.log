@@ -1,0 +1,85 @@
+0 verbose cli /data/data/com.termux/files/usr/bin/node /data/data/com.termux/files/usr/bin/npm
+1 info using npm@11.18.0
+2 info using node@v26.3.1
+3 silly config load:file:/data/data/com.termux/files/usr/lib/node_modules/npm/npmrc
+4 silly config load:file:/data/data/com.termux/files/home/.npmrc
+5 silly config load:file:/data/data/com.termux/files/usr/etc/npmrc
+6 verbose title npm install ethers solc dotenv
+7 verbose argv "install" "ethers" "solc" "dotenv"
+8 verbose logfile logs-max:10 dir:/data/data/com.termux/files/home/.npm/_logs/2026-07-07T10_04_54_494Z-
+9 verbose logfile /data/data/com.termux/files/home/.npm/_logs/2026-07-07T10_04_54_494Z-debug-0.log
+10 silly logfile done cleaning log files
+11 silly packumentCache heap:1174405120 maxSize:293601280 maxEntrySize:146800640
+12 silly idealTree buildDeps
+13 silly fetch manifest dotenv@^17.4.2
+14 silly packumentCache full:https://registry.npmjs.org/dotenv cache-miss
+15 http fetch GET 200 https://registry.npmjs.org/dotenv 1380ms (cache revalidated)
+16 silly packumentCache full:https://registry.npmjs.org/dotenv set size:277818 disposed:false
+17 silly fetch manifest ethers@^6.17.0
+18 silly packumentCache full:https://registry.npmjs.org/ethers cache-miss
+19 http fetch GET 200 https://registry.npmjs.org/ethers 410ms (cache revalidated)
+20 silly packumentCache full:https://registry.npmjs.org/ethers set size:1385088 disposed:false
+21 silly fetch manifest solc@^0.8.35
+22 silly packumentCache full:https://registry.npmjs.org/solc cache-miss
+23 http fetch GET 200 https://registry.npmjs.org/solc 248ms (cache revalidated)
+24 silly packumentCache full:https://registry.npmjs.org/solc set size:344420 disposed:false
+25 silly placeDep ROOT dotenv@17.4.2 REPLACE for:  want: ^17.4.2
+26 silly placeDep ROOT ethers@6.17.0 REPLACE for:  want: ^6.17.0
+27 silly placeDep ROOT solc@0.8.35 REPLACE for:  want: ^0.8.35
+28 silly reify moves {}
+29 silly audit bulk request {
+29 silly audit   '@adraffy/ens-normalize': [ '1.11.1' ],
+29 silly audit   '@noble/curves': [ '1.2.0' ],
+29 silly audit   '@noble/hashes': [ '1.3.2' ],
+29 silly audit   '@types/node': [ '22.7.5' ],
+29 silly audit   'aes-js': [ '4.0.0-beta.5' ],
+29 silly audit   'command-exists': [ '1.2.9' ],
+29 silly audit   commander: [ '8.3.0' ],
+29 silly audit   'follow-redirects': [ '1.16.0' ],
+29 silly audit   'js-sha3': [ '0.8.0' ],
+29 silly audit   memorystream: [ '0.3.1' ],
+29 silly audit   'os-tmpdir': [ '1.0.2' ],
+29 silly audit   semver: [ '5.7.2' ],
+29 silly audit   tmp: [ '0.0.33' ],
+29 silly audit   tslib: [ '2.7.0' ],
+29 silly audit   'undici-types': [ '6.19.8' ],
+29 silly audit   ws: [ '8.21.0' ],
+29 silly audit   dotenv: [ '17.4.2' ],
+29 silly audit   ethers: [ '6.17.0' ],
+29 silly audit   solc: [ '0.8.35' ]
+29 silly audit }
+30 http fetch POST 200 https://registry.npmjs.org/-/npm/v1/security/advisories/bulk 435ms
+31 silly audit report {
+31 silly audit report   tmp: [
+31 silly audit report     {
+31 silly audit report       id: 1109537,
+31 silly audit report       url: 'https://github.com/advisories/GHSA-52f5-9888-hmc6',
+31 silly audit report       title: 'tmp allows arbitrary temporary file / directory write via symbolic link `dir` parameter',
+31 silly audit report       severity: 'low',
+31 silly audit report       vulnerable_versions: '<=0.2.3',
+31 silly audit report       cwe: [Array],
+31 silly audit report       cvss: [Object]
+31 silly audit report     },
+31 silly audit report     {
+31 silly audit report       id: 1120654,
+31 silly audit report       url: 'https://github.com/advisories/GHSA-ph9p-34f9-6g65',
+31 silly audit report       title: 'tmp has Path Traversal via unsanitized prefix/postfix that enables directory escape',
+31 silly audit report       severity: 'high',
+31 silly audit report       vulnerable_versions: '<0.2.6',
+31 silly audit report       cwe: [Array],
+31 silly audit report       cvss: [Object]
+31 silly audit report     }
+31 silly audit report   ]
+31 silly audit report }
+32 silly packumentCache corgi:https://registry.npmjs.org/tmp cache-miss
+33 http fetch GET 200 https://registry.npmjs.org/tmp 400ms (cache miss)
+34 silly packumentCache corgi:https://registry.npmjs.org/tmp set size:undefined disposed:false
+35 silly packumentCache corgi:https://registry.npmjs.org/solc cache-miss
+36 http fetch GET 200 https://registry.npmjs.org/solc 457ms (cache miss)
+37 silly packumentCache corgi:https://registry.npmjs.org/solc set size:undefined disposed:false
+38 verbose cwd /data/data/com.termux/files/home
+39 verbose os Linux 4.14.113-27176651
+40 verbose node v26.3.1
+41 verbose npm  v11.18.0
+42 verbose exit 0
+43 info ok

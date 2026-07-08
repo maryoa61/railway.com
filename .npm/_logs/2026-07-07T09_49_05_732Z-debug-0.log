@@ -1,0 +1,201 @@
+0 verbose cli /data/data/com.termux/files/usr/bin/node /data/data/com.termux/files/usr/bin/npm
+1 info using npm@11.18.0
+2 info using node@v26.3.1
+3 silly config load:file:/data/data/com.termux/files/usr/lib/node_modules/npm/npmrc
+4 silly config load:file:/data/data/com.termux/files/home/.npmrc
+5 silly config load:file:/data/data/com.termux/files/usr/etc/npmrc
+6 verbose title npm install ethers solc dotenv
+7 verbose argv "install" "ethers" "solc" "dotenv"
+8 verbose logfile logs-max:10 dir:/data/data/com.termux/files/home/.npm/_logs/2026-07-07T09_49_05_732Z-
+9 verbose logfile /data/data/com.termux/files/home/.npm/_logs/2026-07-07T09_49_05_732Z-debug-0.log
+10 silly logfile done cleaning log files
+11 silly allow-scripts no package.json at prefix Could not read package.json: Error: ENOENT: no such file or directory, open '/data/data/com.termux/files/home/package.json'
+12 silly packumentCache heap:1174405120 maxSize:293601280 maxEntrySize:146800640
+13 silly idealTree buildDeps
+14 silly fetch manifest ethers@*
+15 silly packumentCache full:https://registry.npmjs.org/ethers cache-miss
+16 http fetch GET 200 https://registry.npmjs.org/npm 2528ms
+17 http fetch GET 200 https://registry.npmjs.org/ethers 2591ms (cache miss)
+18 silly packumentCache full:https://registry.npmjs.org/ethers set size:undefined disposed:false
+19 silly fetch manifest solc@*
+20 silly packumentCache full:https://registry.npmjs.org/solc cache-miss
+21 http fetch GET 200 https://registry.npmjs.org/solc 677ms (cache miss)
+22 silly packumentCache full:https://registry.npmjs.org/solc set size:undefined disposed:false
+23 silly fetch manifest dotenv@*
+24 silly packumentCache full:https://registry.npmjs.org/dotenv cache-miss
+25 http fetch GET 200 https://registry.npmjs.org/dotenv 596ms (cache miss)
+26 silly packumentCache full:https://registry.npmjs.org/dotenv set size:undefined disposed:false
+27 silly placeDep ROOT dotenv@17.4.2 OK for:  want: *
+28 silly placeDep ROOT ethers@6.17.0 OK for:  want: *
+29 silly placeDep ROOT solc@0.8.35 OK for:  want: *
+30 silly fetch manifest @adraffy/ens-normalize@1.11.1
+31 silly packumentCache full:https://registry.npmjs.org/@adraffy%2fens-normalize cache-miss
+32 silly fetch manifest @noble/curves@1.2.0
+33 silly packumentCache full:https://registry.npmjs.org/@noble%2fcurves cache-miss
+34 silly fetch manifest @noble/hashes@1.3.2
+35 silly packumentCache full:https://registry.npmjs.org/@noble%2fhashes cache-miss
+36 silly fetch manifest @types/node@22.7.5
+37 silly packumentCache full:https://registry.npmjs.org/@types%2fnode cache-miss
+38 silly fetch manifest aes-js@4.0.0-beta.5
+39 silly packumentCache full:https://registry.npmjs.org/aes-js cache-miss
+40 silly fetch manifest tslib@2.7.0
+41 silly packumentCache full:https://registry.npmjs.org/tslib cache-miss
+42 silly fetch manifest ws@8.21.0
+43 silly packumentCache full:https://registry.npmjs.org/ws cache-miss
+44 http fetch GET 200 https://registry.npmjs.org/@noble%2fcurves 520ms (cache miss)
+45 silly packumentCache full:https://registry.npmjs.org/@noble%2fcurves set size:undefined disposed:false
+46 silly fetch manifest command-exists@^1.2.8
+47 silly packumentCache full:https://registry.npmjs.org/command-exists cache-miss
+48 http fetch GET 200 https://registry.npmjs.org/@adraffy%2fens-normalize 836ms (cache miss)
+49 silly packumentCache full:https://registry.npmjs.org/@adraffy%2fens-normalize set size:undefined disposed:false
+50 silly fetch manifest commander@^8.1.0
+51 silly packumentCache full:https://registry.npmjs.org/commander cache-miss
+52 http fetch GET 200 https://registry.npmjs.org/command-exists 298ms (cache miss)
+53 silly packumentCache full:https://registry.npmjs.org/command-exists set size:undefined disposed:false
+54 silly fetch manifest follow-redirects@^1.12.1
+55 silly packumentCache full:https://registry.npmjs.org/follow-redirects cache-miss
+56 http fetch GET 200 https://registry.npmjs.org/aes-js 1161ms (cache miss)
+57 silly packumentCache full:https://registry.npmjs.org/aes-js set size:undefined disposed:false
+58 silly fetch manifest js-sha3@0.8.0
+59 silly packumentCache full:https://registry.npmjs.org/js-sha3 cache-miss
+60 http fetch GET 200 https://registry.npmjs.org/follow-redirects 320ms (cache miss)
+61 silly packumentCache full:https://registry.npmjs.org/follow-redirects set size:undefined disposed:false
+62 silly fetch manifest memorystream@^0.3.1
+63 silly packumentCache full:https://registry.npmjs.org/memorystream cache-miss
+64 http fetch GET 200 https://registry.npmjs.org/tslib 1226ms (cache miss)
+65 silly packumentCache full:https://registry.npmjs.org/tslib set size:undefined disposed:false
+66 silly fetch manifest semver@^5.5.0
+67 silly packumentCache full:https://registry.npmjs.org/semver cache-miss
+68 http fetch GET 200 https://registry.npmjs.org/commander 616ms (cache miss)
+69 silly packumentCache full:https://registry.npmjs.org/commander set size:undefined disposed:false
+70 silly fetch manifest tmp@0.0.33
+71 silly packumentCache full:https://registry.npmjs.org/tmp cache-miss
+72 http fetch GET 200 https://registry.npmjs.org/@noble%2fhashes 1547ms (cache miss)
+73 silly packumentCache full:https://registry.npmjs.org/@noble%2fhashes set size:undefined disposed:false
+74 http fetch GET 200 https://registry.npmjs.org/memorystream 370ms (cache miss)
+75 silly packumentCache full:https://registry.npmjs.org/memorystream set size:undefined disposed:false
+76 http fetch GET 200 https://registry.npmjs.org/js-sha3 544ms (cache miss)
+77 silly packumentCache full:https://registry.npmjs.org/js-sha3 set size:undefined disposed:false
+78 http fetch GET 200 https://registry.npmjs.org/semver 487ms (cache miss)
+79 silly packumentCache full:https://registry.npmjs.org/semver set size:undefined disposed:false
+80 http fetch GET 200 https://registry.npmjs.org/ws 1976ms (cache miss)
+81 silly packumentCache full:https://registry.npmjs.org/ws set size:undefined disposed:false
+82 http fetch GET 200 https://registry.npmjs.org/tmp 526ms (cache miss)
+83 silly packumentCache full:https://registry.npmjs.org/tmp set size:undefined disposed:false
+84 http fetch GET 200 https://registry.npmjs.org/@types%2fnode 5792ms (cache miss)
+85 silly packumentCache full:https://registry.npmjs.org/@types%2fnode set size:undefined disposed:false
+86 silly fetch manifest bufferutil@^4.0.1
+87 silly packumentCache full:https://registry.npmjs.org/bufferutil cache-miss
+88 http fetch GET 200 https://registry.npmjs.org/bufferutil 368ms (cache miss)
+89 silly packumentCache full:https://registry.npmjs.org/bufferutil set size:undefined disposed:false
+90 silly fetch manifest utf-8-validate@>=5.0.2
+91 silly packumentCache full:https://registry.npmjs.org/utf-8-validate cache-miss
+92 http fetch GET 200 https://registry.npmjs.org/utf-8-validate 359ms (cache miss)
+93 silly packumentCache full:https://registry.npmjs.org/utf-8-validate set size:undefined disposed:false
+94 silly placeDep ROOT @adraffy/ens-normalize@1.11.1 OK for: ethers@6.17.0 want: 1.11.1
+95 silly placeDep ROOT @noble/curves@1.2.0 OK for: ethers@6.17.0 want: 1.2.0
+96 silly placeDep ROOT @noble/hashes@1.3.2 OK for: ethers@6.17.0 want: 1.3.2
+97 silly placeDep ROOT @types/node@22.7.5 OK for: ethers@6.17.0 want: 22.7.5
+98 silly placeDep ROOT aes-js@4.0.0-beta.5 OK for: ethers@6.17.0 want: 4.0.0-beta.5
+99 silly placeDep ROOT tslib@2.7.0 OK for: ethers@6.17.0 want: 2.7.0
+100 silly placeDep ROOT ws@8.21.0 OK for: ethers@6.17.0 want: 8.21.0
+101 silly fetch manifest undici-types@~6.19.2
+102 silly packumentCache full:https://registry.npmjs.org/undici-types cache-miss
+103 http fetch GET 200 https://registry.npmjs.org/undici-types 504ms (cache miss)
+104 silly packumentCache full:https://registry.npmjs.org/undici-types set size:undefined disposed:false
+105 silly placeDep ROOT undici-types@6.19.8 OK for: @types/node@22.7.5 want: ~6.19.2
+106 silly placeDep ROOT command-exists@1.2.9 OK for: solc@0.8.35 want: ^1.2.8
+107 silly placeDep ROOT commander@8.3.0 OK for: solc@0.8.35 want: ^8.1.0
+108 silly placeDep ROOT follow-redirects@1.16.0 OK for: solc@0.8.35 want: ^1.12.1
+109 silly placeDep ROOT js-sha3@0.8.0 OK for: solc@0.8.35 want: 0.8.0
+110 silly placeDep ROOT memorystream@0.3.1 OK for: solc@0.8.35 want: ^0.3.1
+111 silly placeDep ROOT semver@5.7.2 OK for: solc@0.8.35 want: ^5.5.0
+112 silly placeDep ROOT tmp@0.0.33 OK for: solc@0.8.35 want: 0.0.33
+113 silly fetch manifest os-tmpdir@~1.0.2
+114 silly packumentCache full:https://registry.npmjs.org/os-tmpdir cache-miss
+115 http fetch GET 200 https://registry.npmjs.org/os-tmpdir 208ms (cache miss)
+116 silly packumentCache full:https://registry.npmjs.org/os-tmpdir set size:undefined disposed:false
+117 silly placeDep ROOT os-tmpdir@1.0.2 OK for: tmp@0.0.33 want: ~1.0.2
+118 silly reify moves {}
+119 http cache os-tmpdir@https://registry.npmjs.org/os-tmpdir/-/os-tmpdir-1.0.2.tgz 1ms (cache hit)
+120 http cache tmp@https://registry.npmjs.org/tmp/-/tmp-0.0.33.tgz 0ms (cache hit)
+121 http cache semver@https://registry.npmjs.org/semver/-/semver-5.7.2.tgz 0ms (cache hit)
+122 http cache memorystream@https://registry.npmjs.org/memorystream/-/memorystream-0.3.1.tgz 0ms (cache hit)
+123 http cache js-sha3@https://registry.npmjs.org/js-sha3/-/js-sha3-0.8.0.tgz 0ms (cache hit)
+124 http cache follow-redirects@https://registry.npmjs.org/follow-redirects/-/follow-redirects-1.16.0.tgz 0ms (cache hit)
+125 http cache command-exists@https://registry.npmjs.org/command-exists/-/command-exists-1.2.9.tgz 0ms (cache hit)
+126 http cache commander@https://registry.npmjs.org/commander/-/commander-8.3.0.tgz 0ms (cache hit)
+127 http cache undici-types@https://registry.npmjs.org/undici-types/-/undici-types-6.19.8.tgz 0ms (cache hit)
+128 http cache ws@https://registry.npmjs.org/ws/-/ws-8.21.0.tgz 0ms (cache hit)
+129 http cache tslib@https://registry.npmjs.org/tslib/-/tslib-2.7.0.tgz 0ms (cache hit)
+130 http cache aes-js@https://registry.npmjs.org/aes-js/-/aes-js-4.0.0-beta.5.tgz 0ms (cache hit)
+131 http cache @noble/hashes@https://registry.npmjs.org/@noble/hashes/-/hashes-1.3.2.tgz 0ms (cache hit)
+132 http cache @types/node@https://registry.npmjs.org/@types/node/-/node-22.7.5.tgz 0ms (cache hit)
+133 http cache @noble/curves@https://registry.npmjs.org/@noble/curves/-/curves-1.2.0.tgz 0ms (cache hit)
+134 http cache @adraffy/ens-normalize@https://registry.npmjs.org/@adraffy/ens-normalize/-/ens-normalize-1.11.1.tgz 0ms (cache hit)
+135 http cache solc@https://registry.npmjs.org/solc/-/solc-0.8.35.tgz 0ms (cache hit)
+136 http cache ethers@https://registry.npmjs.org/ethers/-/ethers-6.17.0.tgz 0ms (cache hit)
+137 http cache dotenv@https://registry.npmjs.org/dotenv/-/dotenv-17.4.2.tgz 0ms (cache hit)
+138 silly tarball no local data for os-tmpdir@https://registry.npmjs.org/os-tmpdir/-/os-tmpdir-1.0.2.tgz. Extracting by manifest.
+139 silly tarball no local data for tmp@https://registry.npmjs.org/tmp/-/tmp-0.0.33.tgz. Extracting by manifest.
+140 silly tarball no local data for semver@https://registry.npmjs.org/semver/-/semver-5.7.2.tgz. Extracting by manifest.
+141 silly tarball no local data for memorystream@https://registry.npmjs.org/memorystream/-/memorystream-0.3.1.tgz. Extracting by manifest.
+142 silly tarball no local data for js-sha3@https://registry.npmjs.org/js-sha3/-/js-sha3-0.8.0.tgz. Extracting by manifest.
+143 silly tarball no local data for follow-redirects@https://registry.npmjs.org/follow-redirects/-/follow-redirects-1.16.0.tgz. Extracting by manifest.
+144 silly tarball no local data for command-exists@https://registry.npmjs.org/command-exists/-/command-exists-1.2.9.tgz. Extracting by manifest.
+145 silly tarball no local data for commander@https://registry.npmjs.org/commander/-/commander-8.3.0.tgz. Extracting by manifest.
+146 silly tarball no local data for undici-types@https://registry.npmjs.org/undici-types/-/undici-types-6.19.8.tgz. Extracting by manifest.
+147 silly tarball no local data for ws@https://registry.npmjs.org/ws/-/ws-8.21.0.tgz. Extracting by manifest.
+148 silly tarball no local data for tslib@https://registry.npmjs.org/tslib/-/tslib-2.7.0.tgz. Extracting by manifest.
+149 silly tarball no local data for aes-js@https://registry.npmjs.org/aes-js/-/aes-js-4.0.0-beta.5.tgz. Extracting by manifest.
+150 silly tarball no local data for @noble/hashes@https://registry.npmjs.org/@noble/hashes/-/hashes-1.3.2.tgz. Extracting by manifest.
+151 silly tarball no local data for @types/node@https://registry.npmjs.org/@types/node/-/node-22.7.5.tgz. Extracting by manifest.
+152 silly tarball no local data for @noble/curves@https://registry.npmjs.org/@noble/curves/-/curves-1.2.0.tgz. Extracting by manifest.
+153 silly tarball no local data for @adraffy/ens-normalize@https://registry.npmjs.org/@adraffy/ens-normalize/-/ens-normalize-1.11.1.tgz. Extracting by manifest.
+154 silly tarball no local data for solc@https://registry.npmjs.org/solc/-/solc-0.8.35.tgz. Extracting by manifest.
+155 silly tarball no local data for ethers@https://registry.npmjs.org/ethers/-/ethers-6.17.0.tgz. Extracting by manifest.
+156 silly tarball no local data for dotenv@https://registry.npmjs.org/dotenv/-/dotenv-17.4.2.tgz. Extracting by manifest.
+157 http fetch GET 200 https://registry.npmjs.org/tmp/-/tmp-0.0.33.tgz 537ms (cache miss)
+158 http fetch GET 200 https://registry.npmjs.org/os-tmpdir/-/os-tmpdir-1.0.2.tgz 569ms (cache miss)
+159 http fetch GET 200 https://registry.npmjs.org/follow-redirects/-/follow-redirects-1.16.0.tgz 557ms (cache miss)
+160 http fetch GET 200 https://registry.npmjs.org/memorystream/-/memorystream-0.3.1.tgz 566ms (cache miss)
+161 http fetch GET 200 https://registry.npmjs.org/js-sha3/-/js-sha3-0.8.0.tgz 588ms (cache miss)
+162 http fetch GET 200 https://registry.npmjs.org/command-exists/-/command-exists-1.2.9.tgz 593ms (cache miss)
+163 http fetch GET 200 https://registry.npmjs.org/semver/-/semver-5.7.2.tgz 622ms (cache miss)
+164 http fetch GET 200 https://registry.npmjs.org/dotenv/-/dotenv-17.4.2.tgz 889ms (cache miss)
+165 http fetch GET 200 https://registry.npmjs.org/tslib/-/tslib-2.7.0.tgz 1528ms (cache miss)
+166 http fetch GET 200 https://registry.npmjs.org/undici-types/-/undici-types-6.19.8.tgz 1576ms (cache miss)
+167 http fetch GET 200 https://registry.npmjs.org/@adraffy/ens-normalize/-/ens-normalize-1.11.1.tgz 1588ms (cache miss)
+168 http fetch GET 200 https://registry.npmjs.org/ws/-/ws-8.21.0.tgz 1627ms (cache miss)
+169 http fetch GET 200 https://registry.npmjs.org/commander/-/commander-8.3.0.tgz 1708ms (cache miss)
+170 http fetch GET 200 https://registry.npmjs.org/@noble/hashes/-/hashes-1.3.2.tgz 2298ms (cache miss)
+171 http fetch GET 200 https://registry.npmjs.org/aes-js/-/aes-js-4.0.0-beta.5.tgz 3359ms (cache miss)
+172 http fetch GET 200 https://registry.npmjs.org/@noble/curves/-/curves-1.2.0.tgz 3358ms (cache miss)
+173 http fetch GET 200 https://registry.npmjs.org/@types/node/-/node-22.7.5.tgz 3800ms (cache miss)
+174 http fetch GET 200 https://registry.npmjs.org/ethers/-/ethers-6.17.0.tgz 8878ms (cache miss)
+175 http fetch GET 200 https://registry.npmjs.org/solc/-/solc-0.8.35.tgz 8904ms (cache miss)
+176 silly ADD node_modules/os-tmpdir
+177 silly ADD node_modules/tmp
+178 silly ADD node_modules/semver
+179 silly ADD node_modules/memorystream
+180 silly ADD node_modules/js-sha3
+181 silly ADD node_modules/follow-redirects
+182 silly ADD node_modules/commander
+183 silly ADD node_modules/command-exists
+184 silly ADD node_modules/undici-types
+185 silly ADD node_modules/ws
+186 silly ADD node_modules/tslib
+187 silly ADD node_modules/aes-js
+188 silly ADD node_modules/@types/node
+189 silly ADD node_modules/@noble/hashes
+190 silly ADD node_modules/@noble/curves
+191 silly ADD node_modules/@adraffy/ens-normalize
+192 silly ADD node_modules/solc
+193 silly ADD node_modules/ethers
+194 silly ADD node_modules/dotenv
+195 verbose cwd /data/data/com.termux/files/home
+196 verbose os Linux 4.14.113-27176651
+197 verbose node v26.3.1
+198 verbose npm  v11.18.0
+199 verbose exit 0
+200 info ok
